@@ -1,0 +1,32 @@
+{
+  "name": "ai-parent-education-site",
+  "version": "1.0.0",
+  "description": "AI 부모 교육 사이트 - 중학생 자녀를 둔 학부모를 위한 AI 교육 플랫폼",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "ai",
+    "education",
+    "parent",
+    "middle-school"
+  ],
+  "author": "AI Parent Education Team",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.5",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

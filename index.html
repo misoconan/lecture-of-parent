@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 부모 교육 사이트 - 우리 아이의 미래, AI와 함께 준비하세요</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-robot"></i>
+                    <span>AI 부모교육</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">강의소개 <i class="fas fa-angle-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">전체 강의</a>
+                            <a href="#">추천 강의</a>
+                            <a href="#">AI 기초</a>
+                            <a href="#">체험형</a>
+                            <a href="#">진로탐색</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">AI 가이드 <i class="fas fa-angle-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">AI란 무엇인가?</a>
+                            <a href="#">우리 아이와 AI</a>
+                            <a href="#">FAQ</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">수강후기</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">학습지원 <i class="fas fa-angle-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">학습 가이드북</a>
+                            <a href="#">AI 툴 모음</a>
+                            <a href="#">Q&A 게시판</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">커뮤니티</a></li>
+                </ul>
+                <div class="nav-auth">
+                    <button class="login-btn">로그인</button>
+                    <button class="signup-btn" id="signupBtn">회원가입</button>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="highlight">우리 아이의 미래,</span><br>
+                        AI와 함께 준비하세요
+                    </h1>
+                    <p class="hero-subtitle">
+                        중학생 자녀를 둔 학부모를 위한 맞춤형 AI 교육 플랫폼<br>
+                        AI가 처음인 부모님도 쉽게 이해할 수 있는 친근한 콘텐츠
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="cta-btn primary">강의 둘러보기</button>
+                        <button class="cta-btn secondary">무료 체험</button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-cards">
+                        <div class="card card-1">
+                            <i class="fas fa-brain"></i>
+                            <span>AI 기초</span>
+                        </div>
+                        <div class="card card-2">
+                            <i class="fas fa-code"></i>
+                            <span>코딩 체험</span>
+                        </div>
+                        <div class="card card-3">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>진로 탐색</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-courses">
+            <div class="container">
+                <h2 class="section-title">인기 강의</h2>
+                <p class="section-subtitle">많은 부모님들이 선택한 추천 강의입니다</p>
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <div class="course-thumbnail">
+                            <img src="https://via.placeholder.com/300x200/4A90E2/FFFFFF?text=AI+기초" alt="AI 기초 강의">
+                            <div class="course-badge">인기</div>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">AI 기초부터 차근차근</h3>
+                            <p class="course-description">ChatGPT부터 머신러닝까지, 부모님도 쉽게</p>
+                            <div class="course-meta">
+                                <span class="course-duration"><i class="fas fa-clock"></i> 4시간</span>
+                                <span class="course-rating"><i class="fas fa-star"></i> 4.8</span>
+                            </div>
+                            <div class="course-price">
+                                <span class="original-price">49,000원</span>
+                                <span class="current-price">39,000원</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-thumbnail">
+                            <img src="https://via.placeholder.com/300x200/7ED321/FFFFFF?text=체험형+강의" alt="체험형 강의">
+                            <div class="course-badge">신규</div>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">아이와 함께하는 AI 체험</h3>
+                            <p class="course-description">직접 만들어보는 재미있는 AI 프로젝트</p>
+                            <div class="course-meta">
+                                <span class="course-duration"><i class="fas fa-clock"></i> 6시간</span>
+                                <span class="course-rating"><i class="fas fa-star"></i> 4.9</span>
+                            </div>
+                            <div class="course-price">
+                                <span class="current-price">59,000원</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-thumbnail">
+                            <img src="https://via.placeholder.com/300x200/F5A623/FFFFFF?text=진로+탐색" alt="진로 탐색 강의">
+                            <div class="course-badge">추천</div>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">AI 시대 진로 가이드</h3>
+                            <p class="course-description">미래 직업과 우리 아이 진로 설계</p>
+                            <div class="course-meta">
+                                <span class="course-duration"><i class="fas fa-clock"></i> 3시간</span>
+                                <span class="course-rating"><i class="fas fa-star"></i> 4.7</span>
+                            </div>
+                            <div class="course-price">
+                                <span class="current-price">35,000원</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses-more">
+                    <button class="more-btn">더 많은 강의 보기</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="parent-guide">
+            <div class="container">
+                <div class="guide-content">
+                    <div class="guide-text">
+                        <h2 class="section-title">AI가 처음인 부모님도<br>쉽게 이해할 수 있어요</h2>
+                        <p class="section-subtitle">
+                            복잡한 기술 용어 없이, 일상 언어로 설명하는 부모님 맞춤 가이드
+                        </p>
+                        <ul class="guide-features">
+                            <li><i class="fas fa-check-circle"></i> ChatGPT가 뭔지 궁금하셨죠?</li>
+                            <li><i class="fas fa-check-circle"></i> 우리 아이에게 어떤 도움이 될까요?</li>
+                            <li><i class="fas fa-check-circle"></i> 어떻게 시작하면 좋을까요?</li>
+                            <li><i class="fas fa-check-circle"></i> 안전하게 사용하는 방법은?</li>
+                        </ul>
+                        <button class="guide-btn">가이드 보러가기</button>
+                    </div>
+                    <div class="guide-visual">
+                        <div class="guide-cards">
+                            <div class="guide-card">
+                                <i class="fas fa-question-circle"></i>
+                                <h4>AI가 뭐죠?</h4>
+                                <p>쉬운 말로 설명해드려요</p>
+                            </div>
+                            <div class="guide-card">
+                                <i class="fas fa-heart"></i>
+                                <h4>우리 아이와 AI</h4>
+                                <p>교육에 활용하는 방법</p>
+                            </div>
+                            <div class="guide-card">
+                                <i class="fas fa-shield-alt"></i>
+                                <h4>안전한 사용법</h4>
+                                <p>주의사항과 팁</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">수강 후기</h2>
+                <p class="section-subtitle">실제 부모님들의 생생한 후기를 확인해보세요</p>
+                <div class="testimonials-slider">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"컴퓨터를 잘 모르는 저도 쉽게 따라할 수 있었어요. 아이와 함께 ChatGPT로 숙제도 도와주고, AI 그림도 그려보니 너무 재미있네요!"</p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>김○○ 님</h4>
+                                    <span>중2 자녀 학부모</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"AI 시대에 뒤처지지 않게 도와주고 싶었는데, 어디서부터 시작해야 할지 막막했어요. 이 강의 덕분에 아이와 대화도 늘고 진로 고민도 함께 할 수 있게 되었습니다."</p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>박○○ 님</h4>
+                                    <span>중1 자녀 학부모</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"처음엔 어려울 줄 알았는데 정말 쉽게 설명해주시네요. 특히 아이 안전 교육 부분이 좋았어요. 이제 안심하고 AI 도구들을 사용할 수 있을 것 같아요."</p>
+                            <div class="testimonial-author">
+                                <div class="author-info">
+                                    <h4>이○○ 님</h4>
+                                    <span>중3 자녀 학부모</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>지금 시작하세요!</h2>
+                    <p>우리 아이의 AI 교육, 더 이상 미루지 마세요</p>
+                    <div class="cta-buttons">
+                        <button class="cta-btn primary large" id="heroSignupBtn">무료 회원가입</button>
+                        <button class="cta-btn secondary large">강의 둘러보기</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-robot"></i>
+                        <span>AI 부모교육</span>
+                    </div>
+                    <p>중학생 자녀를 둔 학부모를 위한<br>AI 교육 전문 플랫폼</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>강의</h4>
+                    <ul>
+                        <li><a href="#">AI 기초</a></li>
+                        <li><a href="#">체험형 강의</a></li>
+                        <li><a href="#">진로 탐색</a></li>
+                        <li><a href="#">추천 강의</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>지원</h4>
+                    <ul>
+                        <li><a href="#">학습 가이드</a></li>
+                        <li><a href="#">AI 툴 모음</a></li>
+                        <li><a href="#">Q&A</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>정보</h4>
+                    <ul>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">환불정책</a></li>
+                        <li><a href="#">연락처</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI 부모교육. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 회원가입 모달 -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-user-plus"></i> 회원가입</h2>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form id="signupForm" class="signup-form">
+                    <div class="form-group">
+                        <label for="name">이름 <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">이메일 <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password">비밀번호 <span class="required">*</span></label>
+                        <input type="password" id="password" name="password" required>
+                        <div class="password-requirements">
+                            <small>8자 이상, 영문+숫자+특수문자 포함</small>
+                        </div>
+                        <span class="error-message" id="passwordError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="confirmPassword">비밀번호 확인 <span class="required">*</span></label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required>
+                        <span class="error-message" id="confirmPasswordError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">연락처</label>
+                        <input type="tel" id="phone" name="phone" placeholder="010-1234-5678">
+                        <span class="error-message" id="phoneError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="childGrade">자녀 학년</label>
+                        <select id="childGrade" name="childGrade">
+                            <option value="">선택해주세요</option>
+                            <option value="중1">중학교 1학년</option>
+                            <option value="중2">중학교 2학년</option>
+                            <option value="중3">중학교 3학년</option>
+                            <option value="기타">기타</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
+                            <span class="checkmark"></span>
+                            <span class="required">*</span> 이용약관 및 개인정보처리방침에 동의합니다
+                        </label>
+                        <span class="error-message" id="agreeError"></span>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="agreeMarketing" name="agreeMarketing">
+                            <span class="checkmark"></span>
+                            마케팅 정보 수신에 동의합니다 (선택)
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn" id="submitBtn">
+                        <i class="fas fa-user-check"></i> 회원가입 완료
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- 성공 메시지 모달 -->
+    <div id="successModal" class="modal">
+        <div class="modal-content success-modal">
+            <div class="success-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>회원가입 완료!</h3>
+            <p>AI 부모교육 사이트에 오신 것을 환영합니다.<br>이제 다양한 강의를 만나보세요!</p>
+            <button class="cta-btn primary" id="successOkBtn">시작하기</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
